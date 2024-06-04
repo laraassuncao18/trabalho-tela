@@ -47,6 +47,7 @@ gif...
 * bootstrap
 * teams
 * vs code
+* Esplorador de arquivos
 
 ## 💟Autores:
 
