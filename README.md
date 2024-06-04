@@ -9,7 +9,7 @@ a função do codigo é
 
 ## 💪Estrutura de Arquivos:
 
-* index.php: Página principal da aplicação.
+* index.php: Página principal.
 
 * login.php: Página de login onde os usuários podem entrar.
 
@@ -44,6 +44,7 @@ a função do codigo é
 * teams
 
 ## 😵Autores:
+
 * [lara](https://github.com/laraassuncao18)
 * [leo](https://github.com/LeonardoRochaMarista)
 
