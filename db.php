@@ -2,8 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "your_database_name"; // Substitua pelo nome do seu banco de dados
-
+$dbname = "sua_base_de_dados";
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 if ($conn->connect_error) {

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Login</title>
+    <title>Cadastro</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
@@ -16,18 +16,22 @@
               <a class="nav-link" href="index.php">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="login.php">Login</a>
+              <a class="nav-link" href="login.php">Login</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="cadastro.php">Cadastro</a>
+              <a class="nav-link active" aria-current="page" href="cadastro.php">Cadastro</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <div class="container">
-      <h2 class="mt-5">Login</h2>
-      <form action="login.php" method="post">
+      <h2 class="mt-5">Cadastro</h2>
+      <form action="cadastro.php" method="post">
+        <div class="mb-3">
+          <label for="name" class="form-label">Nome</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
         <div class="mb-3">
           <label for="email" class="form-label">Email</label>
           <input type="email" class="form-control" id="email" name="email" required>
@@ -36,7 +40,7 @@
           <label for="password" class="form-label">Senha</label>
           <input type="password" class="form-control" id="password" name="password" required>
         </div>
-        <button type="submit" class="btn btn-primary">Entrar</button>
+        <button type="submit" class="btn btn-primary">Cadastrar</button>
       </form>
     </div>
   </body>
@@ -46,17 +50,16 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     include 'db.php';
     
+    $name = $_POST['name'];
     $email = $_POST['email'];
     $password = $_POST['password'];
     
-    $sql = "SELECT * FROM cadUser WHERE email='$email' AND password='$password'";
-    $result = $conn->query($sql);
+    $sql = "INSERT INTO cadUser (name, email, password, tipoUser) VALUES ('$name', '$email', '$password', 1)";
     
-    if ($result->num_rows > 0) {
-        echo "Login realizado com sucesso!";
-      
+    if ($conn->query($sql) === TRUE) {
+        echo "Cadastro realizado com sucesso!";
     } else {
-        echo "Email ou senha incorretos.";
+        echo "Erro: " . $sql . "<br>" . $conn->error;
     }
     
     $conn->close();
