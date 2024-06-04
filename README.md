@@ -44,7 +44,7 @@ a função do codigo é
 * teams
 
 ## 😵Autores:
-* [lara]()
-* [leo]()
+* [lara](https://github.com/laraassuncao18)
+* [leo](https://github.com/LeonardoRochaMarista)
 
 
