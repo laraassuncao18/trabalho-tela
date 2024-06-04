@@ -4,7 +4,7 @@
 Este arquivo configura a conexão com o banco de dados MySQL. Ele centraliza as informações de conexão, facilitando a manutenção.Esta tela é um siatema de login e cadastro utilizando PHP e mysql,bootstrap 5 .Na tela há: tela principal, a tela de login e a tela de cadastro .O projeto é estruturado para facilitar a menutenção futura.
 
 ## Função
-a função do codigo é 
+A função dessa bela pagina é fazer login e cadastro
 
 gif...
 
