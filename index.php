@@ -10,7 +10,8 @@
 </head>
 <style>
     body {
-    padding-top: 3.5rem;
+        padding-top: 3.5rem;
+    background-color:#a7c2df; 
 }
 
 .navbar-brand {
@@ -19,7 +20,7 @@
 }
 
 h1 {
-    margin-top: 20px;
+    margin-top: 60px;
     font-size: 2.5rem;
 }
 
