@@ -6,6 +6,8 @@ Este arquivo configura a conexão com o banco de dados MySQL. Ele centraliza as 
 ## Função
 a função do codigo é 
 
+gif...
+
 
 ## 💪Estrutura de Arquivos:
 
