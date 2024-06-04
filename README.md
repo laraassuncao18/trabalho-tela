@@ -1,10 +1,10 @@
 # trabalho-tela
 
 ## 🦋Descrição
- Esta tela é um sitema de login e cadastro utilizando PHP e mysql,bootstrap 5 .Na tela há: tela principal, a tela de login e a tela de cadastro .O projeto é estruturado para facilitar a manutenção futura.
-
-## 💟 Função
-A função dessa tela pagina é fazer login e cadastro
+ repositorio de um sistema de login e cadastro utilizando PHP, mysql e bootstrap 5 .Na tela há:
+  tela principal, a tela de login e a tela de cadastro .
+## 💟Função
+A função dessa tela é fazer login e cadastro.
 
 gif...
 
@@ -42,12 +42,7 @@ gif...
 ## 💟metodos utilizados:
 * xammp
 * git hub
-* google
-* capitura de tela
 * bootstrap
-* teams
-* vs code
-* Esplorador de arquivos
 
 ## 💟Autores:
 
