@@ -27,8 +27,8 @@
       </div>
     </nav>
     <div class="container text-center">
-      <h1 class="mt-5">Bem-vindo à aplicação PHP!</h1>
-      <p class="lead">Esta é a página principal.</p>
+      <h1 class="mt-5">🦋SEJA BEM-VINDO(A) MARUJOS🦋</h1>
+      <p class="lead">🌻Você está na pagina principal!</p>
     </div>
   </body>
 </html>
