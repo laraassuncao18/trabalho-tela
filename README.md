@@ -1,6 +1,6 @@
 # trabalho-tela
 
-## Descrição
+## 🦋Descrição
 Este arquivo configura a conexão com o banco de dados MySQL. Ele centraliza as informações de conexão, facilitando a manutenção esta tela é um siatema de login e cadastro utilizando PHP e mysql,bootstrap 5.Na tela ha a tela principal, a tela de login e a tela de cadastro.O projeto é estruturado para facilitar a menutenção futura.
 
 ## Estrutura de Arquivos
