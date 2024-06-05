@@ -20,7 +20,7 @@
 }
 
 h1 {
-    margin-top: 60px;
+    margin-top: 600px;
     font-size: 2.5rem;
 }
 
@@ -29,7 +29,7 @@ h1 {
 }
 
 .container {
-    max-width: 600px;
+    max-width: 800px;
 }
 
 .btn-primary {
