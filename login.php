@@ -10,7 +10,7 @@
   </head>
   <style>
     body {
-        padding-top: 3.5rem;
+        padding-top: 5.5rem;
     background-color:#a7c2df; 
 }
 
@@ -71,7 +71,7 @@ h1 {
       </form>
     </div>
   </body>
-</html>
+</html>  
 
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
