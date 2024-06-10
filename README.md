@@ -29,8 +29,6 @@ gif...
 
 * Formulário para entrada de email e senha.
 
-* Validação das credenciais de usuário contra o banco de dados.
-
 ## 💟Página de Cadastro (cadastro.php):
 
 * Formulário para registrar novos usuários com nome, email e senha.
