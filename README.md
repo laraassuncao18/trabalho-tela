@@ -6,7 +6,11 @@
 ## 💟Função
 A função dessa tela é fazer login e cadastro.
 
-gif...
+## Tela principal:
+
+## Tela login:
+
+##  Tela de cadastro:
 
 
 ## 💟Estrutura de Arquivos:
