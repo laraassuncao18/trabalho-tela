@@ -11,7 +11,7 @@
   <style>
     body {
       padding-top: 0%;
-      background: linear-gradient (#a7c2df #0c0c0c);
+
     } 
 
 .navbar-brand {
@@ -32,10 +32,12 @@ h1 {
     max-width: 800px;
 }
 
-.btn-primary {
-  background: linear-gradient (#a7c2df #0c0c0c);
-  background: linear-gradient (#a7c2df #0c0c0c);
+.box {
+  
+    background: linear-gradient(to bottom, #4CAF50, #FF5722);
+    
 }
+
   </style>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
@@ -74,23 +76,3 @@ h1 {
 </html> 
 
 
-<?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    include 'db.php';
-    
-    $email = $_POST['email'];
-    $password = $_POST['password'];
-    
-    $sql = "SELECT * FROM cadUser WHERE email='$email' AND password='$password'";
-    $result = $conn->query($sql);
-    
-    if ($result->num_rows > 0) {
-        echo "Login realizado com sucesso!";
-      
-    } else {
-        echo "Email ou senha incorretos.";
-    }
-    
-    $conn->close();
-}
-?>

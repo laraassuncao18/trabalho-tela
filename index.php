@@ -11,7 +11,7 @@
 <style>
     body {
       padding-top: 0%;
-      background: linear-gradient (#a7c2df #0c0c0c);  
+      
 }
 
 .navbar-brand {
@@ -32,9 +32,11 @@ h1 {
     max-width: 800px;
 }
 
-.btn-primary {
-  background: linear-gradient (#a7c2df #0c0c0c);
-  background: linear-gradient (#a7c2df #0c0c0c);
+.box {
+    
+    background: linear-gradient(to bottom, #4CAF50, #FF5722);
+   
+}
 </style>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
@@ -57,7 +59,8 @@ h1 {
     </nav>
     <div class="container text-center">
       <h1 class="mt-5">🦋seja bem-vindo(a) marujos🦋</h1>
-      <p class="lead">🌻VOCE ESTÁ NA PAGINA PRINCIPAL!</p>
+      <p class="lead">🌻VOCE ESTÁ NA PAGINA PRINCIPAL! faça seu login ou se cadastre.
+      </p>
     </div>
   </body>
 </html>

@@ -17,8 +17,6 @@ gif...
 
 * cadastro.php: Página de cadastro onde novos usuários podem se registrar.
 
-* db.php: Arquivo de configuração para a conexão com o banco de dados.
- 
 * styles.css: codigo que conduz com o design da pagina.
 
 ## 💟Página Principal (index.php):

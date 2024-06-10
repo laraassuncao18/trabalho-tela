@@ -11,7 +11,7 @@
   <style>
     body {
       padding-top: 0%;
-      background: linear-gradient (#a7c2df #0c0c0c);
+      
     } 
 
 .navbar-brand {
@@ -32,9 +32,10 @@ h1 {
     max-width: 800px;
 }
 
-.btn-primary {
-  background: linear-gradient (#a7c2df #0c0c0c);
-  background: linear-gradient (#a7c2df #0c0c0c);
+.box {
+   
+    background: linear-gradient(to bottom, #4CAF50, #FF5722);
+    
 }
   </style>
   <body>
@@ -76,23 +77,3 @@ h1 {
     </div>
   </body>
 </html>
-
-<?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    include 'db.php';
-    
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $password = $_POST['password'];
-    
-    $sql = "INSERT INTO cadUser (name, email, password, tipoUser) VALUES ('$name', '$email', '$password', 1)";
-    
-    if ($conn->query($sql) === TRUE) {
-        echo "Cadastro realizado com sucesso!";
-    } else {
-        echo "Erro: " . $sql . "<br>" . $conn->error;
-    }
-    
-    $conn->close();
-}
-?>
