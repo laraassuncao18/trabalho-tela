@@ -10,7 +10,7 @@
 </head>
 <style>
     body {
-        padding-top: 5.5rem;
+      padding-top: 0%;
     background-color:#a7c2df; 
 }
 
@@ -40,7 +40,7 @@ h1 {
   <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Aplicação PHP</a>
+        <a class="navbar-brand" href="#">formulario💟</a>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
