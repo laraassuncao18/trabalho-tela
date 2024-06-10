@@ -11,7 +11,7 @@
 <style>
     body {
       padding-top: 0%;
-    background-color:#a7c2df; 
+      background: linear-gradient (#a7c2df #0c0c0c);  
 }
 
 .navbar-brand {
@@ -33,9 +33,8 @@ h1 {
 }
 
 .btn-primary {
-    background-color: #ddecc0;
-    border-color: #a7c2df;
-}
+  background: linear-gradient (#a7c2df #0c0c0c);
+  background: linear-gradient (#a7c2df #0c0c0c);
 </style>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
