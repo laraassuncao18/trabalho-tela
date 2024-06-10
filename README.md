@@ -19,7 +19,7 @@ gif...
 
 * db.php: Arquivo de configuração para a conexão com o banco de dados.
  
-* styles.css: codigo que conduz com o design do site.
+* styles.css: codigo que conduz com o design da pagina.
 
 ## 💟Página Principal (index.php):
 
