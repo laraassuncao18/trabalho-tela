@@ -7,10 +7,11 @@
 A função dessa tela é fazer login e cadastro.
 
 ## Tela principal:
-
+![img](img/Captura%20de%20tela%202024-06-10%20114030.png)
 ## Tela login:
-
+![img](img/Captura%20de%20tela%202024-06-10%20114126.png)
 ##  Tela de cadastro:
+![img](img/Captura%20de%20tela%202024-06-10%20114202.png)
 
 
 ## 💟Estrutura de Arquivos:
